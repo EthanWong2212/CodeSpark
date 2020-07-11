@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/CodeSpark/static/css/main.37d7e1ca.chunk.css",
+    "main.js": "/CodeSpark/static/js/main.5740daee.chunk.js",
+    "main.js.map": "/CodeSpark/static/js/main.5740daee.chunk.js.map",
+    "runtime-main.js": "/CodeSpark/static/js/runtime-main.0f76319b.js",
+    "runtime-main.js.map": "/CodeSpark/static/js/runtime-main.0f76319b.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/CodeSpark/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.72d289ac.chunk.js": "/CodeSpark/static/js/2.72d289ac.chunk.js",
+    "static/js/2.72d289ac.chunk.js.map": "/CodeSpark/static/js/2.72d289ac.chunk.js.map",
+    "index.html": "/CodeSpark/index.html",
+    "precache-manifest.f63f8eaa2923bcef180ba3d67b2dd15e.js": "/CodeSpark/precache-manifest.f63f8eaa2923bcef180ba3d67b2dd15e.js",
+    "service-worker.js": "/CodeSpark/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/CodeSpark/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.37d7e1ca.chunk.css.map": "/CodeSpark/static/css/main.37d7e1ca.chunk.css.map",
+    "static/js/2.72d289ac.chunk.js.LICENSE.txt": "/CodeSpark/static/js/2.72d289ac.chunk.js.LICENSE.txt",
+    "static/media/About.gif": "/CodeSpark/static/media/About.2850ed08.gif",
+    "static/media/Curriculum.gif": "/CodeSpark/static/media/Curriculum.1c9cda2c.gif",
+    "static/media/Games.png": "/CodeSpark/static/media/Games.2c46c98a.png",
+    "static/media/Lessons.png": "/CodeSpark/static/media/Lessons.4718b668.png",
+    "static/media/Logo.jpeg": "/CodeSpark/static/media/Logo.106ee390.jpeg",
+    "static/media/Logo_light.jpg": "/CodeSpark/static/media/Logo_light.855ad002.jpg",
+    "static/media/Overview.gif": "/CodeSpark/static/media/Overview.c910ff4f.gif",
+    "static/media/Projects.png": "/CodeSpark/static/media/Projects.0271d407.png",
+    "static/media/Projects.gif": "/CodeSpark/static/media/Projects.3bcddf72.gif",
+    "static/media/Test_img.JPG": "/CodeSpark/static/media/Test_img.922048f3.JPG",
+    "static/media/Welcome.png": "/CodeSpark/static/media/Welcome.2bb36a8a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f76319b.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.72d289ac.chunk.js",
+    "static/css/main.37d7e1ca.chunk.css",
+    "static/js/main.5740daee.chunk.js"
+  ]
+}
