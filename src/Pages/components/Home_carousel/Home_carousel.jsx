@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from './Games.png';
-import Image2 from './Lessons.png';
-import Image3 from './Projects.png';
+import Games from './Games.JPG';
+import Lessons from './Lessons.png';
+// import Image3 from './Projects.png';
 import Home_carousel_style from './Home_carousel_style.css';
-import Image4 from './Test_img.JPG';
 
 class Home_carousel extends Component {
     constructor(props){
@@ -25,7 +24,7 @@ class Home_carousel extends Component {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={Image1}
+                    src={Games}
                     />
                     <Carousel.Caption>
                         <h1> Games</h1>
@@ -34,7 +33,7 @@ class Home_carousel extends Component {
                 <Carousel.Item>
                     <img 
                     className="d-block w-100"
-                    src={Image4}
+                    src={Lessons}
                     />
                     <Carousel.Caption>
                         <h1> Lessons</h1>
@@ -43,7 +42,7 @@ class Home_carousel extends Component {
                 <Carousel.Item>
                     <img 
                     className="d-block w-100"
-                    src={Image3}
+                    src={Lessons}
                     />
                     <Carousel.Caption>
                         <h1> Projects</h1>

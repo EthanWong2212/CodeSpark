@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from './Pages/components/Logo/Logo';
 import Navbar from './Pages/components/Navbar/Navbar';
 import PageRouter from './PageRouter';
+import './App.css';
 
 
 function App(){
@@ -15,8 +16,9 @@ function App(){
                     <Logo/>
                 </div>
                     <Navbar/>
-
+                <div className="rest">
                     <PageRouter/>
+                </div>      
             </HashRouter>
         </div>
     )

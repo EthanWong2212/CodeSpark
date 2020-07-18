@@ -1,11 +1,13 @@
 import React from 'react';
-import Header from './components/Page_header_gif/Curriculum.gif';
-import Game from './components/Game';
+import Header from './components/Page_header_img/Curriculum.png';
+import Game from './components/Game/Blockly/Game';
 function Curriculum(){
     return(
         <div>
             <img className="Headergif" src={Header}/>
-            <Game/>
+            <div className="main_comp">
+                <Game/>
+            </div>
         </div>
         
     );

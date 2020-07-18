@@ -1,11 +1,14 @@
 import React from 'react';
 import Home_carousel from "./components/Home_carousel/Home_carousel";
+import Header from "./components/Page_header_img/Home.png";
 
 function Home(){
     return(
         <div>
-            <h1>home page</h1>
-            <Home_carousel/>
+            <img className="Headergif" src={Header}/>
+            <div className="main_comp">
+                <Home_carousel/>
+            </div>
         </div>
 
 

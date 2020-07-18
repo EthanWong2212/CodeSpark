@@ -1,5 +1,6 @@
 import React from "react";
-import Unity, { UnityContent } from "react-unity-webgl";
+import Unity, { UnityContent }  from "react-unity-webgl";
+import "./Game_style.css";
 
 class Game extends React.Component {
   constructor(props) {
@@ -14,13 +15,16 @@ class Game extends React.Component {
       "Orbital_web3/Build/UnityLoader.js"
     );
   }
-
   render() {
 
     // Finally render the Unity component and pass 
     // the Unity content through the props.
 
-    return <Unity unityContent={this.unityContent} />;
+    return (
+      <div className="unitygame">
+        <Unity unityContent={this.unityContent}/>
+      </div>
+    )
   }
 }
 
