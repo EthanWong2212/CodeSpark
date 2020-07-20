@@ -12,7 +12,9 @@ class Game extends React.Component {
 
     this.unityContent = new UnityContent(
       "Orbital_web3/Build/Orbital_web3.json",
-      "Orbital_web3/Build/UnityLoader.js"
+      "Orbital_web3/Build/UnityLoader.js", {
+        adjustOnWindowResize: false 
+      }
     );
   }
   render() {

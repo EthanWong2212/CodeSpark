@@ -7,30 +7,6 @@ class Navbar extends Component {
         return ( 
             <div>
                 <ul className="navbar">
-                    
-
-                    {/* <li>
-                        <Link to ="/">
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to ="/curriculum">
-                            Curriculum
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to ="/">
-                            Projects
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to ="/">
-                            About
-                        </Link>
-                    </li> */}
-
-
                     <Link to ="/">
                         <li><a>Home</a></li>
                     </Link>
