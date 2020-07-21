@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f75ffe09593283dcea7f64c6f3d25d5",
+    "revision": "8f81d939d31ba54ae93d2e676de4e895",
     "url": "/CodeSpark/index.html"
   },
   {
-    "revision": "2e1818375d33aaef44e3",
+    "revision": "47f043f22bd62e2dd029",
     "url": "/CodeSpark/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "52b13396aa03c21f891e",
-    "url": "/CodeSpark/static/css/main.b8f7c0c5.chunk.css"
+    "revision": "57db47cbfca1d0a2fe91",
+    "url": "/CodeSpark/static/css/main.cbefcc9e.chunk.css"
   },
   {
-    "revision": "2e1818375d33aaef44e3",
-    "url": "/CodeSpark/static/js/2.fb0f91a5.chunk.js"
+    "revision": "47f043f22bd62e2dd029",
+    "url": "/CodeSpark/static/js/2.545654d4.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/CodeSpark/static/js/2.fb0f91a5.chunk.js.LICENSE.txt"
+    "url": "/CodeSpark/static/js/2.545654d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52b13396aa03c21f891e",
-    "url": "/CodeSpark/static/js/main.bb8cfd60.chunk.js"
+    "revision": "57db47cbfca1d0a2fe91",
+    "url": "/CodeSpark/static/js/main.7dad3509.chunk.js"
   },
   {
     "revision": "42bd1bceb9630c33715f",
@@ -60,11 +60,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CodeSpark/static/media/Overview.c910ff4f.gif"
   },
   {
+    "revision": "182460dd9f5d2149e47052c3af2ceae4",
+    "url": "/CodeSpark/static/media/Pick_chap.182460dd.png"
+  },
+  {
     "revision": "3bcddf72df8dee9a9ceefdf859273419",
     "url": "/CodeSpark/static/media/Projects.3bcddf72.gif"
   },
   {
     "revision": "2bb36a8a60b302fe97c1551a0ffe021f",
     "url": "/CodeSpark/static/media/Welcome.2bb36a8a.png"
+  },
+  {
+    "revision": "c747be0a7e4015a397286560092b8857",
+    "url": "/CodeSpark/static/media/youtube_bg.c747be0a.png"
   }
 ]);
