@@ -4,6 +4,8 @@ import Game from './components/Game/Blockly/Game';
 import Dropdown from "react-bootstrap/Dropdown";
 import VideoSelector from"./components/VideoSelector";
 import ReactPlayer from "react-player";
+import Youtubebg from './components/youtube_bg.png';
+import Pick_chap from './components/Pick_chap.png';
 
 class Curriculum extends Component{
     state = {
@@ -26,6 +28,7 @@ class Curriculum extends Component{
                     This is where you will start your coding journey!
                 </h1>
                 <div className="pick_chap_cont">
+                    <img src={Pick_chap}/>
                     <div className="a">
                         <Dropdown  onSelect={this.handleSelect}>
                             <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -41,8 +44,14 @@ class Curriculum extends Component{
                     </div>
                 </div>
                 <div className="main_comp">
-                    <ReactPlayer url={videoLink.chooselink()}/>
-                    <Game/>
+                    <div className="youtubebg_cont">
+                        <img src={Youtubebg}/>
+                        <div className="youtube_cont">
+                        {/* <img className="video" src={Header}/> */}
+                            <ReactPlayer className="video" width='100%' height="100%" controls={true} url={videoLink.chooselink()}/>
+                        </div>
+                    </div>
+                    {/* <Game/> */}
                 </div>
             </div>
         );  
