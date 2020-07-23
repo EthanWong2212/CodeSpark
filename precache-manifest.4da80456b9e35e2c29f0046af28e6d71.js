@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f81d939d31ba54ae93d2e676de4e895",
+    "revision": "f7ff5ae4b6a0d4a4489747fc0d02aa71",
     "url": "/CodeSpark/index.html"
   },
   {
-    "revision": "47f043f22bd62e2dd029",
+    "revision": "d92bf5f6fd4072deadfc",
     "url": "/CodeSpark/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "57db47cbfca1d0a2fe91",
-    "url": "/CodeSpark/static/css/main.cbefcc9e.chunk.css"
+    "revision": "a6256db64a1f7a9c9c74",
+    "url": "/CodeSpark/static/css/main.e21b38c4.chunk.css"
   },
   {
-    "revision": "47f043f22bd62e2dd029",
-    "url": "/CodeSpark/static/js/2.545654d4.chunk.js"
+    "revision": "d92bf5f6fd4072deadfc",
+    "url": "/CodeSpark/static/js/2.aeb3f129.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/CodeSpark/static/js/2.545654d4.chunk.js.LICENSE.txt"
+    "url": "/CodeSpark/static/js/2.aeb3f129.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57db47cbfca1d0a2fe91",
-    "url": "/CodeSpark/static/js/main.7dad3509.chunk.js"
+    "revision": "a6256db64a1f7a9c9c74",
+    "url": "/CodeSpark/static/js/main.df88b0a5.chunk.js"
   },
   {
     "revision": "42bd1bceb9630c33715f",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CodeSpark/static/media/Curriculum.db9648b4.png"
   },
   {
+    "revision": "d9915599d0c9da6fc7ebaad063973ef8",
+    "url": "/CodeSpark/static/media/Game_head.d9915599.png"
+  },
+  {
     "revision": "922048f312a904eefd41839578d505c5",
     "url": "/CodeSpark/static/media/Games.922048f3.JPG"
   },
   {
     "revision": "4c232f7580eb24fb5515bf8acc613070",
     "url": "/CodeSpark/static/media/Home.4c232f75.png"
+  },
+  {
+    "revision": "ad443f3ec6c339e8b2f9767aec5cd73d",
+    "url": "/CodeSpark/static/media/Lesson_head.ad443f3e.png"
   },
   {
     "revision": "6df1d1bd6e5862d9633ef3885ce7c0cb",
@@ -72,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CodeSpark/static/media/Welcome.2bb36a8a.png"
   },
   {
-    "revision": "c747be0a7e4015a397286560092b8857",
-    "url": "/CodeSpark/static/media/youtube_bg.c747be0a.png"
+    "revision": "2bbe89ddf6a63c0739dd06d4e5b39720",
+    "url": "/CodeSpark/static/media/youtube_bg2.2bbe89dd.png"
   }
 ]);

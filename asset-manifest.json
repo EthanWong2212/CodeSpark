@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/CodeSpark/static/css/main.cbefcc9e.chunk.css",
-    "main.js": "/CodeSpark/static/js/main.7dad3509.chunk.js",
-    "main.js.map": "/CodeSpark/static/js/main.7dad3509.chunk.js.map",
+    "main.css": "/CodeSpark/static/css/main.e21b38c4.chunk.css",
+    "main.js": "/CodeSpark/static/js/main.df88b0a5.chunk.js",
+    "main.js.map": "/CodeSpark/static/js/main.df88b0a5.chunk.js.map",
     "runtime-main.js": "/CodeSpark/static/js/runtime-main.0f76319b.js",
     "runtime-main.js.map": "/CodeSpark/static/js/runtime-main.0f76319b.js.map",
     "static/css/2.af3c1da9.chunk.css": "/CodeSpark/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.545654d4.chunk.js": "/CodeSpark/static/js/2.545654d4.chunk.js",
-    "static/js/2.545654d4.chunk.js.map": "/CodeSpark/static/js/2.545654d4.chunk.js.map",
+    "static/js/2.aeb3f129.chunk.js": "/CodeSpark/static/js/2.aeb3f129.chunk.js",
+    "static/js/2.aeb3f129.chunk.js.map": "/CodeSpark/static/js/2.aeb3f129.chunk.js.map",
     "index.html": "/CodeSpark/index.html",
-    "precache-manifest.c671eb5ed802fda1f5d1d1486945b268.js": "/CodeSpark/precache-manifest.c671eb5ed802fda1f5d1d1486945b268.js",
+    "precache-manifest.4da80456b9e35e2c29f0046af28e6d71.js": "/CodeSpark/precache-manifest.4da80456b9e35e2c29f0046af28e6d71.js",
     "service-worker.js": "/CodeSpark/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/CodeSpark/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.cbefcc9e.chunk.css.map": "/CodeSpark/static/css/main.cbefcc9e.chunk.css.map",
-    "static/js/2.545654d4.chunk.js.LICENSE.txt": "/CodeSpark/static/js/2.545654d4.chunk.js.LICENSE.txt",
+    "static/css/main.e21b38c4.chunk.css.map": "/CodeSpark/static/css/main.e21b38c4.chunk.css.map",
+    "static/js/2.aeb3f129.chunk.js.LICENSE.txt": "/CodeSpark/static/js/2.aeb3f129.chunk.js.LICENSE.txt",
     "static/media/About.gif": "/CodeSpark/static/media/About.2850ed08.gif",
     "static/media/Curriculum.png": "/CodeSpark/static/media/Curriculum.db9648b4.png",
+    "static/media/Game_head.png": "/CodeSpark/static/media/Game_head.d9915599.png",
     "static/media/Games.JPG": "/CodeSpark/static/media/Games.922048f3.JPG",
     "static/media/Home.png": "/CodeSpark/static/media/Home.4c232f75.png",
+    "static/media/Lesson_head.png": "/CodeSpark/static/media/Lesson_head.ad443f3e.png",
     "static/media/Lessons.png": "/CodeSpark/static/media/Lessons.6df1d1bd.png",
     "static/media/Logo.jpeg": "/CodeSpark/static/media/Logo.106ee390.jpeg",
     "static/media/Logo_light.jpg": "/CodeSpark/static/media/Logo_light.855ad002.jpg",
@@ -25,13 +27,13 @@
     "static/media/Pick_chap.png": "/CodeSpark/static/media/Pick_chap.182460dd.png",
     "static/media/Projects.gif": "/CodeSpark/static/media/Projects.3bcddf72.gif",
     "static/media/Welcome.png": "/CodeSpark/static/media/Welcome.2bb36a8a.png",
-    "static/media/youtube_bg.png": "/CodeSpark/static/media/youtube_bg.c747be0a.png"
+    "static/media/youtube_bg2.png": "/CodeSpark/static/media/youtube_bg2.2bbe89dd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0f76319b.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.545654d4.chunk.js",
-    "static/css/main.cbefcc9e.chunk.css",
-    "static/js/main.7dad3509.chunk.js"
+    "static/js/2.aeb3f129.chunk.js",
+    "static/css/main.e21b38c4.chunk.css",
+    "static/js/main.df88b0a5.chunk.js"
   ]
 }
