@@ -15,9 +15,10 @@ class Loop extends Component{
             "Game_loop/Build/UnityLoader.js"
         );
     }
+    
     runCode=()=>{
         var code = BlocklyJS.workspaceToCode(this.simpleWorkspace.workspace);
-        // code+='this.unityContent.send(\'Player\',\'ArrList_Arr\');';
+        code+='this.unityContent.send(\'Player\',\'ArrList_Arr\');';
         eval(code);
     }
     render(){
@@ -52,7 +53,7 @@ class Loop extends Component{
                     <div className="game">
                         <Unity unityContent={this.unityContent} height="300px" width="400px"/>
                     </div>
-                    <button onClick={this.runCode}>Run</button>
+                    <button onClick={this.runCode.bind(this)}>Run</button>
                 </div>
             </div>
         );
