@@ -6,7 +6,6 @@ import Navbar from './Pages/components/Navbar/Navbar';
 import PageRouter from './PageRouter';
 import './App.css';
 
-
 function App(){
     
     return(

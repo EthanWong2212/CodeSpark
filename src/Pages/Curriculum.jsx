@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Page_header_img/Curriculum.png';
-import Game from './components/Game/Blockly/Game';
+import Loop from './components/Game2/Loop';
 import Dropdown from "react-bootstrap/Dropdown";
 import VideoSelector from"./components/VideoSelector";
 import ReactPlayer from "react-player";
@@ -57,7 +57,7 @@ class Curriculum extends Component{
                     <div classNaame="gamebg_cont">
                         <img className="curr_cont" src={Game_head}/>
                     </div>
-                    {/* <Game/> */}
+                    <Loop/>
                 </div>
             </div>
         );  

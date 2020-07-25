@@ -1,0 +1,8 @@
+
+.game{
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+    right:5%;
+    position:absolute;
+ }

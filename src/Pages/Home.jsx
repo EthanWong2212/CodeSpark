@@ -1,6 +1,7 @@
 import React from 'react';
 import Home_carousel from "./components/Home_carousel/Home_carousel";
 import Header from "./components/Page_header_img/Home.png";
+import "./DefStyle.css";
 
 function Home(){
     return(

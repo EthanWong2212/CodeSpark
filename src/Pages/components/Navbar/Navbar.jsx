@@ -13,9 +13,6 @@ class Navbar extends Component {
                     <Link to ="/curriculum">
                         <li> <a>Curriculum</a></li>
                     </Link>
-                    <Link to="/projects">
-                        <li><a>Projects</a></li>
-                    </Link>
                     <Link to="/overview">
                         <li><a>Overview</a></li>
                     </Link>
