@@ -11,10 +11,11 @@ class Loop extends Component{
         super(props);
         this.simpleWorkspace = React.createRef();
         this.unityContent= new UnityContent(
-            "Game_loop/Build/Game_loop.json",
-            "Game_loop/Build/UnityLoader.js"
+            "Games/Orbital_web3/Build/Orbital_web3.json",
+            "Games/Orbital_web3/Build/UnityLoader.js"
         );
     }
+    
     
     runCode=()=>{
         var code = BlocklyJS.workspaceToCode(this.simpleWorkspace.workspace);
@@ -36,14 +37,6 @@ class Loop extends Component{
                         <xml xmlns="http://www.w3.org/1999/xhtml">
                         </xml>
                     `}>
-                        <Block type="controls_repeat_ext">
-                        <Value name="TIMES">
-                            <Shadow type="math_number">
-                            <Field name="NUM">10</Field>
-                            </Shadow>
-                        </Value>
-                        </Block>
-                        <Block type="controls_if"/>
                         <Block type="Up" />
                         <Block type="Down" />
                         <Block type="Left" />

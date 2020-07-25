@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Page_header_img/Curriculum.png';
-import Loop from './components/Game2/Loop';
+import Loop from './components/Games/Loop';
 import Dropdown from "react-bootstrap/Dropdown";
 import VideoSelector from"./components/VideoSelector";
 import ReactPlayer from "react-player";
@@ -8,10 +8,11 @@ import Youtubebg from './components/youtube_bg2.png';
 import Pick_chap from './components/Pick_chap.png';
 import Lesson_head from './components/Lesson_head.png';
 import Game_head from './components/Game_head.png';
+import GameSelector from './components/GameSelector';
 
 class Curriculum extends Component{
     state = {
-        selectedContent:'Chapter',
+        selectedContent:'Intro',
         videoLink: ""
     }
 
@@ -38,9 +39,10 @@ class Curriculum extends Component{
                             </Dropdown.Toggle>
     
                             <Dropdown.Menu>
+                                <Dropdown.Item eventKey="Intro">Intro</Dropdown.Item>
                                 <Dropdown.Item eventKey="Functions">Functions</Dropdown.Item>
-                                <Dropdown.Item eventKey="Conditions">Conditions</Dropdown.Item>
                                 <Dropdown.Item eventKey="Loops">Loops</Dropdown.Item>
+                                <Dropdown.Item eventKey="Conditions">Conditions</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                     </div>
@@ -57,7 +59,7 @@ class Curriculum extends Component{
                     <div classNaame="gamebg_cont">
                         <img className="curr_cont" src={Game_head}/>
                     </div>
-                    <Loop/>
+                    < GameSelector lesson={this.state.selectedContent}/>
                 </div>
             </div>
         );  
