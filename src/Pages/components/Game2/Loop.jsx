@@ -17,7 +17,7 @@ class Loop extends Component{
     }
     runCode=()=>{
         var code = BlocklyJS.workspaceToCode(this.simpleWorkspace.workspace);
-        code+='this.unityContent.send(\'Player\',\'ArrList_Arr\');';
+        // code+='this.unityContent.send(\'Player\',\'ArrList_Arr\');';
         eval(code);
     }
     render(){
