@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4803f751d96bc0e49edf91e1e3a27844",
+    "revision": "c51f10409f3578cd75fd5e0a7c3bed1c",
     "url": "/CodeSpark/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CodeSpark/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "4c72cea1eb70d2af280d",
+    "revision": "5858e61b8678ab8e5e9f",
     "url": "/CodeSpark/static/css/main.4dad9756.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CodeSpark/static/js/2.5faf9001.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c72cea1eb70d2af280d",
-    "url": "/CodeSpark/static/js/main.0f158b74.chunk.js"
+    "revision": "5858e61b8678ab8e5e9f",
+    "url": "/CodeSpark/static/js/main.197c922c.chunk.js"
   },
   {
     "revision": "669175fcd71f311509c1739df90a1d8e",
-    "url": "/CodeSpark/static/js/main.0f158b74.chunk.js.LICENSE.txt"
+    "url": "/CodeSpark/static/js/main.197c922c.chunk.js.LICENSE.txt"
   },
   {
     "revision": "42bd1bceb9630c33715f",
