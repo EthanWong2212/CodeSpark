@@ -14,5 +14,5 @@ Blockly.JavaScript['Left'] = function() {
 };
 
 Blockly.JavaScript['Right'] = function() {
-    return "this.unityContent.send('Player','appendArrList', 'Right');\n console.log('1');\n";
+    return "console.log('1');\n";
 };
