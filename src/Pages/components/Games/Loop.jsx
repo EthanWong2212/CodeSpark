@@ -10,7 +10,7 @@ class Loop extends Component{
         super(props);
         this.simpleWorkspace = React.createRef();
         this.unityContent= new UnityContent(
-            "Games/Loops_game/Build/Loops_Game.json",
+            "Games/Loops_game/Build/Loops_game.json",
             "Games/Loops_game/Build/UnityLoader.js",{
                 adjustOnWindowResize: false 
               }

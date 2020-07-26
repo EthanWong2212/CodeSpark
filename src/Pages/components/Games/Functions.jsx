@@ -10,8 +10,8 @@ class Functions extends Component{
         super(props);
         this.simpleWorkspace = React.createRef();
         this.unityContent= new UnityContent(
-            "Games/Functions_game/Build/Functions_Game.json",
-            "Games/Functions_game/Build/UnityLoader.js",{
+            "Games/Functions_Game/Build/Functions_Game.json",
+            "Games/Functions_Game/Build/UnityLoader.js",{
                 adjustOnWindowResize: false 
               }
         );
