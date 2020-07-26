@@ -13,7 +13,7 @@ class VideoSelector extends Component{
             case "4) Conditions":
                 return "https://www.youtube.com/watch?v=b0zZg3n4VcQ";
             default:
-                return "https://www.youtube.com/watch?v=bu7nU9Mhpyo";
+                return "https://www.youtube.com/watch?v=oC0OPmfs3uo&feature=youtu.be";
         }
     }
     
