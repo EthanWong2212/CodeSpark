@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "CodeSpark_final",
+"productVersion": "0.1",
+"dataUrl": "Loops_game.data.unityweb",
+"wasmCodeUrl": "Loops_game.wasm.code.unityweb",
+"wasmFrameworkUrl": "Loops_game.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.13f1"
+}

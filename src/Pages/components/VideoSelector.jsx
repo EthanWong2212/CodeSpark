@@ -6,12 +6,12 @@ class VideoSelector extends Component{
     }
     chooselink(){
         switch(this.lesson){
-            case "Functions":
-                return "https://www.youtube.com/watch?v=lDK9QqIzhwk";
-            case "Loops":
+            case "3) Functions":
+                return "https://www.youtube.com/watch?v=mlF_mRVky4k";
+            case "2) Loops":
                 return "https://www.youtube.com/watch?v=1WMWw5iC3Tk";
-            case "Conditions":
-                return "https://www.youtube.com/watch?v=HK7SPnGSxLM";
+            case "4) Conditions":
+                return "https://www.youtube.com/watch?v=b0zZg3n4VcQ";
             default:
                 return "https://www.youtube.com/watch?v=bu7nU9Mhpyo";
         }

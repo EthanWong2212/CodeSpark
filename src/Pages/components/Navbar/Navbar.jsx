@@ -7,18 +7,18 @@ class Navbar extends Component {
         return ( 
             <div>
                 <ul className="navbar">
-                    <Link to ="/">
-                        <li><a>Home</a></li>
-                    </Link>
-                    <Link to ="/curriculum">
-                        <li> <a>Curriculum</a></li>
-                    </Link>
-                    <Link to="/overview">
-                        <li><a>Overview</a></li>
-                    </Link>
-                    <Link to="/about">
-                        <li><a>About</a></li>
-                    </Link>
+                    {/* <Link to ="/"> */}
+                        <li><Link to ="/"><a>Home</a></Link></li>
+                    {/* </Link> */}
+                    {/* <Link to ="/curriculum"> */}
+                        <li> <Link to ="/curriculum"><a>Curriculum</a></Link></li>
+                    {/* </Link> */}
+                    {/* <Link to="/overview"> */}
+                        <li><Link to="/overview"><a>Overview</a></Link></li>
+                    {/* </Link> */}
+                    {/* <Link to="/about"> */}
+                        <li><Link to="/about"><a>About</a></Link></li>
+                    {/* </Link> */}
 
                 </ul>
             </div>

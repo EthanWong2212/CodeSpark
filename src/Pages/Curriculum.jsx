@@ -12,7 +12,7 @@ import GameSelector from './components/GameSelector';
 
 class Curriculum extends Component{
     state = {
-        selectedContent:'Intro',
+        selectedContent:'1) Intro',
         videoLink: ""
     }
 
@@ -39,10 +39,10 @@ class Curriculum extends Component{
                             </Dropdown.Toggle>
     
                             <Dropdown.Menu>
-                                <Dropdown.Item eventKey="Intro">Intro</Dropdown.Item>
-                                <Dropdown.Item eventKey="Functions">Functions</Dropdown.Item>
-                                <Dropdown.Item eventKey="Loops">Loops</Dropdown.Item>
-                                <Dropdown.Item eventKey="Conditions">Conditions</Dropdown.Item>
+                                <Dropdown.Item eventKey="1) Intro">1) Intro</Dropdown.Item>
+                                <Dropdown.Item eventKey="2) Loops">2) Loops</Dropdown.Item>
+                                <Dropdown.Item eventKey="3) Functions">3) Functions</Dropdown.Item>
+                                <Dropdown.Item eventKey="4) Conditions">4) Conditions</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                     </div>
@@ -58,8 +58,10 @@ class Curriculum extends Component{
                     </div>
                     <div classNaame="gamebg_cont">
                         <img className="curr_cont" src={Game_head}/>
+                        <div className="game_cont">
+                            < GameSelector lesson={this.state.selectedContent}/>
+                        </div>
                     </div>
-                    < GameSelector lesson={this.state.selectedContent}/>
                 </div>
             </div>
         );  

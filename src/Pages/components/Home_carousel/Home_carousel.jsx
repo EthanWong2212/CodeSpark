@@ -3,7 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import Games from './Games.JPG';
 import Lessons from './Lessons.png';
 // import Image3 from './Projects.png';
-import Home_carousel_style from './Home_carousel_style.css';
+import Block_coding from './Block_coding.png'
+import './Home_carousel_style.css';
 
 class Home_carousel extends Component {
     constructor(props){
@@ -27,7 +28,7 @@ class Home_carousel extends Component {
                     src={Games}
                     />
                     <Carousel.Caption>
-                        <h1> Games</h1>
+                        <h1 className="Carousel_cap"> Games</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -36,16 +37,16 @@ class Home_carousel extends Component {
                     src={Lessons}
                     />
                     <Carousel.Caption>
-                        <h1> Lessons</h1>
+                        <h1 className="Carousel_cap"> Lessons</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img 
                     className="d-block w-100"
-                    src={Lessons}
+                    src={Block_coding}
                     />
                     <Carousel.Caption>
-                        <h1> Projects</h1>
+                        <h1 className="Carousel_cap"> Block Coding</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

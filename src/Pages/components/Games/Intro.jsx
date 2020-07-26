@@ -11,8 +11,10 @@ class Loop extends Component{
         super(props);
         this.simpleWorkspace = React.createRef();
         this.unityContent= new UnityContent(
-            "Games/Orbital_web3/Build/Orbital_web3.json",
-            "Games/Orbital_web3/Build/UnityLoader.js"
+            "Games/Intro_Game/Build/Intro_Game.json",
+            "Games/Intro_Game/Build/UnityLoader.js",{
+                adjustOnWindowResize: false 
+              }
         );
     }
     
@@ -24,7 +26,6 @@ class Loop extends Component{
     }
     render(){
         return(
-            <div>
                 <div className="GameWrapper">
                     <BlocklyComponent ref={this.simpleWorkspace}
                     readOnly={false} trashcan={true} media={'media/'}
@@ -48,7 +49,6 @@ class Loop extends Component{
                     </div>
                     <button onClick={this.runCode.bind(this)}>Run</button>
                 </div>
-            </div>
         );
     }
 }

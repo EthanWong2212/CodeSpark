@@ -5,14 +5,15 @@ import BlocklyJS from 'blockly/javascript';
 import './customblocks.js';
 import './JsGenerator.js';
 import './Game.css';
-
 class Loop extends Component{
     constructor(props){
         super(props);
         this.simpleWorkspace = React.createRef();
         this.unityContent= new UnityContent(
-            "Games/Game_loop/Build/Game_loop.json",
-            "Games/Game_loop/Build/UnityLoader.js"
+            "Games/Loops_game/Build/Loops_Game.json",
+            "Games/Loops_game/Build/UnityLoader.js",{
+                adjustOnWindowResize: false 
+              }
         );
     }
     
@@ -22,8 +23,10 @@ class Loop extends Component{
     
     runCode=()=>{
         var code = BlocklyJS.workspaceToCode(this.simpleWorkspace.workspace);
-        code+='this.unityContent.send(\'Player\',\'ArrList_Arr\');';
+        code+='this.unityContent.send(\'Player\',\'ArrList_Arr\');\n';
+        // console.log(code);
         eval(code);
+        
     }
     render(){
         return(
@@ -47,7 +50,6 @@ class Loop extends Component{
                             </Shadow>
                         </Value>
                         </Block>
-                        <Block type="controls_if"/>
                         <Block type="Up" />
                         <Block type="Down" />
                         <Block type="Left" />
@@ -55,7 +57,7 @@ class Loop extends Component{
                     </BlocklyComponent>
 
                     <div className="game">
-                        <Unity unityContent={this.unityContent} height="300px" width="400px"/>
+                        <Unity unityContent={this.unityContent} height="588px" width="441px"/>
                     </div>
                     <button onClick={this.runCode.bind(this)}>Run</button>
                 </div>

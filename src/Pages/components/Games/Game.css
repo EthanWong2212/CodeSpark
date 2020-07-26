@@ -6,3 +6,9 @@
     right:5%;
     position:absolute;
  }
+ .GameWrapper{
+     display:block;
+     width:100%;
+     height: 60%;
+     background-color: #ff9d00;
+ }
