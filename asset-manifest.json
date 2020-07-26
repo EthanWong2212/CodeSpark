@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/CodeSpark/static/css/main.4dad9756.chunk.css",
-    "main.js": "/CodeSpark/static/js/main.12c9669d.chunk.js",
-    "main.js.map": "/CodeSpark/static/js/main.12c9669d.chunk.js.map",
+    "main.css": "/CodeSpark/static/css/main.2b9e72b3.chunk.css",
+    "main.js": "/CodeSpark/static/js/main.ae52eec1.chunk.js",
+    "main.js.map": "/CodeSpark/static/js/main.ae52eec1.chunk.js.map",
     "runtime-main.js": "/CodeSpark/static/js/runtime-main.0f76319b.js",
     "runtime-main.js.map": "/CodeSpark/static/js/runtime-main.0f76319b.js.map",
     "static/css/2.af3c1da9.chunk.css": "/CodeSpark/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6285781e.chunk.js": "/CodeSpark/static/js/2.6285781e.chunk.js",
-    "static/js/2.6285781e.chunk.js.map": "/CodeSpark/static/js/2.6285781e.chunk.js.map",
+    "static/js/2.d3afe1a5.chunk.js": "/CodeSpark/static/js/2.d3afe1a5.chunk.js",
+    "static/js/2.d3afe1a5.chunk.js.map": "/CodeSpark/static/js/2.d3afe1a5.chunk.js.map",
     "index.html": "/CodeSpark/index.html",
-    "precache-manifest.50820e49f75bbd28a93280528a14a33c.js": "/CodeSpark/precache-manifest.50820e49f75bbd28a93280528a14a33c.js",
+    "precache-manifest.e11aa258f80f50c4c50e50af5302cf64.js": "/CodeSpark/precache-manifest.e11aa258f80f50c4c50e50af5302cf64.js",
     "service-worker.js": "/CodeSpark/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/CodeSpark/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.4dad9756.chunk.css.map": "/CodeSpark/static/css/main.4dad9756.chunk.css.map",
-    "static/js/2.6285781e.chunk.js.LICENSE.txt": "/CodeSpark/static/js/2.6285781e.chunk.js.LICENSE.txt",
-    "static/js/main.12c9669d.chunk.js.LICENSE.txt": "/CodeSpark/static/js/main.12c9669d.chunk.js.LICENSE.txt",
+    "static/css/main.2b9e72b3.chunk.css.map": "/CodeSpark/static/css/main.2b9e72b3.chunk.css.map",
+    "static/js/2.d3afe1a5.chunk.js.LICENSE.txt": "/CodeSpark/static/js/2.d3afe1a5.chunk.js.LICENSE.txt",
+    "static/js/main.ae52eec1.chunk.js.LICENSE.txt": "/CodeSpark/static/js/main.ae52eec1.chunk.js.LICENSE.txt",
     "static/media/About.gif": "/CodeSpark/static/media/About.2850ed08.gif",
+    "static/media/Block_coding.png": "/CodeSpark/static/media/Block_coding.702bc807.png",
     "static/media/Curriculum.png": "/CodeSpark/static/media/Curriculum.db9648b4.png",
     "static/media/Game_head.png": "/CodeSpark/static/media/Game_head.d9915599.png",
     "static/media/Games.JPG": "/CodeSpark/static/media/Games.922048f3.JPG",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.0f76319b.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6285781e.chunk.js",
-    "static/css/main.4dad9756.chunk.css",
-    "static/js/main.12c9669d.chunk.js"
+    "static/js/2.d3afe1a5.chunk.js",
+    "static/css/main.2b9e72b3.chunk.css",
+    "static/js/main.ae52eec1.chunk.js"
   ]
 }
