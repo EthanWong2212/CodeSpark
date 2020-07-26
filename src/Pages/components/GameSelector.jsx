@@ -10,9 +10,9 @@ class GameSelector extends Component{
         console.log(this.props.lesson);
         switch(this.props.lesson){
             case "1) Intro":
-                return(<Intro/>);
-            case"2) Loops":
                 return(<Loop/>);
+            case"2) Loops":
+                return(<Intro/>);
             case"3) Functions":
                 return(<Functions/>);
             
