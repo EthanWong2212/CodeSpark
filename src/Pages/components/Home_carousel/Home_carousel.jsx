@@ -24,7 +24,7 @@ class Home_carousel extends Component {
             prevIcon={this.state.prevIcon}>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="img_cont"
                     src={Games}
                     />
                     <Carousel.Caption>
@@ -33,7 +33,7 @@ class Home_carousel extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img 
-                    className="d-block w-100"
+                    className="img_cont"
                     src={Lessons}
                     />
                     <Carousel.Caption>
@@ -42,7 +42,7 @@ class Home_carousel extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img 
-                    className="d-block w-100"
+                    className="img_cont"
                     src={Block_coding}
                     />
                     <Carousel.Caption>

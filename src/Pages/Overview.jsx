@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Page_header_gif/Overview.gif'
+import Header from './components/Page_header_img/Overview.png'
 
 function Overview(){
     return(
