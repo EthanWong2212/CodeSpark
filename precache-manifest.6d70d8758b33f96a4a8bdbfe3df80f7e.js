@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6810e8c3a8183e1ed60c52599c520a3",
+    "revision": "60a33d3c700d01753b4c6f01ac00cd74",
     "url": "/CodeSpark/index.html"
   },
   {
-    "revision": "e8d725cc10afc64cd631",
+    "revision": "c8b8f15849999bd88fee",
     "url": "/CodeSpark/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "c522be0a93ee59f4364e",
-    "url": "/CodeSpark/static/css/main.e136c6aa.chunk.css"
+    "revision": "e164dbef5fdfd77e840e",
+    "url": "/CodeSpark/static/css/main.ac4d521f.chunk.css"
   },
   {
-    "revision": "e8d725cc10afc64cd631",
-    "url": "/CodeSpark/static/js/2.872cd27c.chunk.js"
+    "revision": "c8b8f15849999bd88fee",
+    "url": "/CodeSpark/static/js/2.789b4448.chunk.js"
   },
   {
     "revision": "0c520232f85f2ee941126cbec85d5242",
-    "url": "/CodeSpark/static/js/2.872cd27c.chunk.js.LICENSE.txt"
+    "url": "/CodeSpark/static/js/2.789b4448.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c522be0a93ee59f4364e",
-    "url": "/CodeSpark/static/js/main.664bfe38.chunk.js"
+    "revision": "e164dbef5fdfd77e840e",
+    "url": "/CodeSpark/static/js/main.154e7397.chunk.js"
   },
   {
     "revision": "669175fcd71f311509c1739df90a1d8e",
-    "url": "/CodeSpark/static/js/main.664bfe38.chunk.js.LICENSE.txt"
+    "url": "/CodeSpark/static/js/main.154e7397.chunk.js.LICENSE.txt"
   },
   {
     "revision": "42bd1bceb9630c33715f",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CodeSpark/static/media/Curriculum.db9648b4.png"
   },
   {
+    "revision": "2a82ec0220fde18f15a337b40f8af9e6",
+    "url": "/CodeSpark/static/media/Functions.2a82ec02.png"
+  },
+  {
     "revision": "d9915599d0c9da6fc7ebaad063973ef8",
     "url": "/CodeSpark/static/media/Game_head.d9915599.png"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4c232f7580eb24fb5515bf8acc613070",
     "url": "/CodeSpark/static/media/Home.4c232f75.png"
+  },
+  {
+    "revision": "c57fef71aecd480598f58466ba24e1c9",
+    "url": "/CodeSpark/static/media/Intro.c57fef71.png"
   },
   {
     "revision": "ad443f3ec6c339e8b2f9767aec5cd73d",
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "855ad002e3f02c2b67737345f11878a3",
     "url": "/CodeSpark/static/media/Logo_light.855ad002.jpg"
+  },
+  {
+    "revision": "e4940b5a76dbb3b084926df9d0aeb978",
+    "url": "/CodeSpark/static/media/Loops.e4940b5a.png"
   },
   {
     "revision": "04ff15c871f5a31614530b71d5bce474",
