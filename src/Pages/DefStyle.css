@@ -102,3 +102,20 @@
     font: Comic Sans, cursive;
     margin-bottom:0;
 }
+.wip{
+    font-size:9vw;
+    text-align: center;
+    display: block;
+}
+.ans_cont{
+    display:block;
+    padding-top: 1vw;
+}
+.ans_but{
+    background-color: chartreuse;
+    border-radius: 25px;
+    display: inline-block;
+    padding:1vw;
+    font-size:1vw;
+
+}

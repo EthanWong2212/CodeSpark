@@ -15,7 +15,8 @@ class GameSelector extends Component{
                 return(<Loop/>);
             case"3) Functions":
                 return(<Functions/>);
-            
+            case"4) Conditions":
+                return(<h1 className="wip">WORK IN PROGRESS</h1>);
             default:
                 return(<Intro/>);
         }
