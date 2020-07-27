@@ -3,7 +3,7 @@ import Header from './components/Page_header_img/Overview.png'
 
 function Overview(){
     return(
-        <div>
+        <div className="Overview">
             <img className="Headergif" src={Header}/>
             <h1>Basic concepts</h1>
             <h2>What is Python?</h2>

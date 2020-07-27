@@ -61,7 +61,7 @@
 }
 .game_cont{
     display:block;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
 
 }
@@ -73,4 +73,32 @@
     height:auto;
     width: 20%;
     background-color: #ff9d00;
+}
+.footer{
+    background-color: black;
+    border-top: 10vw solid #ff9d00;
+}
+.footer p{
+    color:white;
+    font-size:small;
+    margin-bottom:0;
+}
+.footer h1{
+    color: white;
+    font-size:medium;
+}
+.Overview p{
+    background-color: #ff9d00;
+    margin-bottom:0;
+}
+
+.text_cont{
+    width:70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.text_cont p{
+    font-size:2vw;
+    font: Comic Sans, cursive;
+    margin-bottom:0;
 }

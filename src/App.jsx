@@ -5,6 +5,7 @@ import Logo from './Pages/components/Logo/Logo';
 import Navbar from './Pages/components/Navbar/Navbar';
 import PageRouter from './PageRouter';
 import './App.css';
+import Footer from './Pages/components/Footer'
 
 function App(){
     
@@ -17,8 +18,9 @@ function App(){
                     <Navbar/>
                 <div className="rest">
                     <PageRouter/>
-                </div>      
+                </div>
             </HashRouter>
+            <Footer/>
         </div>
     )
 }
